@@ -4,5 +4,8 @@ function drag(id){
 		var e = evt || window.event;
 		var disX = e.offsetX;
 		var disY = e.offsetY;
+		document.onmousemove = function(evt){
+			
+		}
 	}
 }
