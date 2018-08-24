@@ -3,5 +3,6 @@ function drag(id){
 	ele.onmousedown = function(evt){
 		var e = evt || window.event;
 		var disX = e.offsetX;
+		var disY = e.offsetY;
 	}
 }
